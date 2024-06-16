@@ -1,0 +1,167 @@
+/**
+ * @name Radion Theme BD
+ * @description Radion's (C) official Better Discord theme. For the Radion member community. For theme suggestions, head to the server; https://discord.com/invite/87BC7wApsZ
+ * @version 1.2.9
+ * @author LS_Wartaal
+ */
+
+/* CHECK DOWN BELOW FOR USER AGREEMENT */
+/* https://drive.google.com/file/d/1GZJEijiq4_iTtm1HqkEJ6q_heHYykw22/view?usp=sharing */
+
+
+:root {
+    --background-primary: linear-gradient(73deg, rgba(77,74,52,1) 0%, rgba(150,144,102,1) 84%, rgba(199,184,122,1) 100%);
+    --background-secondary: #4d4a34;
+    --background-secondary-alt: #3f3820;
+    --background-tertiary: #202225;
+    --background-accent: #74673c;
+    --background-floating: rgb(117, 95, 34);
+    --background-mentioned: #4d4a34;
+    --background-mentioned-hover: #6d694c;
+    --text-normal: #dcddde;
+    --text-muted: #ffffff; 
+    --text-link: #fce38f; 
+    --text-accent: #ffffff;
+    --interactive-normal: #ffdc6b;
+    --interactive-hover: #ffffff;
+    --interactive-active: #ffffff;
+    --interactive-muted: #74673c;
+    --brand-experiment: #7289da;
+    --brand: #8389c7;
+    --status-positive: #43b581;
+    --status-warning: #ffc664;
+    --status-danger: rgb(0, 0, 0);
+    --status-boost: #ff00f7;
+    --status-online: red;
+    --channels-default: #d8d8d8; 
+    --channels-hover: #b9bbbe;
+    --channels-selected: #ffffff;
+    --shadow: rgba(255, 255, 255, 0.6);
+    --scrollbar-thin-thumb: #fce38f;
+    --scrollbar-thin-track: #4d4a34;
+    --scrollbar-auto-thumb: #fce38f;
+    --scrollbar-auto-track: #4d4a34;
+    --new-messages-bar: black;
+    --discord-icon: none;
+    --home-icon: block;
+    --home-icon-url: url(https://i.imgur.com/xTDQb1J.png)
+}
+
+.scrollableContainer_ff917f {
+    background-color: #000000;
+    color: rgb(255, 255, 255); 
+}
+
+.buttonsInner_a9dfff.wrapper__4e6b6 {
+    background-color: #4d4a34;
+}
+
+.container_b92032 {
+    background-color: rgb(56, 50, 32);
+}
+
+.wrapper_d281dd path {
+    display: none;
+}
+    
+.wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c, .wrapper_d281dd .childWrapper__01b9c {
+    background: url('https://cdn.discordapp.com/attachments/1137807597546786968/1242546133176287252/Radion_ROUND.png?ex=666ddec3&is=666c8d43&hm=dc5b297da83c1a7589b5d75c6fbe0c126db243475ca4ccfb2c772f00189058b8&') center/cover no-repeat;
+    background-size: 80%;
+    min-width: 60px;
+    min-height: 60px;
+}
+
+
+.message-accessories-1251215261533474950 {
+    background-color: black;
+}
+
+.bar__004d9 {
+    background-color: black;
+}
+
+.submitButton__57214.button__581d0.lookFilled__950dd.colorBrand__27d57.sizeSmall_da7d10.grow__4c8a4 {
+    background-color: black;
+}
+
+.expandedFolderBackground_b1385f {
+    background-color: rgb(63, 63, 63);
+}
+
+.wrapper__8436d:hover .childWrapper__760c6, .childWrapper__760c6 {background-color: black;}
+#app-mount .tutorialContainer_b06ae6 .childWrapper__760c6 {
+    background-image: url('https://i.imgur.com/f8CtqhN_d.webp?maxwidth=760&fidelity=grand');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.childWrapper__760c6 svg {display: none;}
+
+
+.divider__01aed.hasContent__1fe13 {
+    border-width: 4px;
+    border-color: black;
+}
+
+.repliedMessage__636d2:before {
+    border-color: #fce38f;
+}
+
+.content__7191e {
+    background: black;
+    color: #fce38f; 
+}
+
+.syntaxBefore_bd3975.before_inlineCode__48f7c {
+    background-color: rgb(117, 95, 34);
+}
+
+.inlineCode__0cacf {
+    background-color: rgb(117, 95, 34);
+    color: #fce38f;
+}
+
+.syntaxAfter__23aff.after_inlineCode__59586 {
+    background-color: rgb(117, 95, 34);
+}
+
+.messagesPopout__28784.thin__62e51.scrollerBase__65223 {
+    background-color: black;
+}
+
+.messageGroupCozy__9d016.wrapper_a62503.cozy_f5c119.zalgo__39311 {
+    background-color: #4d4a34;
+}
+
+.header__21b33 {
+    background-color: black;
+}
+
+.theme-dark.container__26baa.themed_b152d4 {
+    background-color: #ffe100;
+}
+
+.mainPageScroller_a3deff.auto__020ac.scrollerBase__65223 {
+    background-color: #86815b;
+}
+
+.item_f48d11.deny__71546.selected__5faae {
+    background: red;
+}
+
+.newMessagesBar__8b272.barBase__8839d {
+    background: black;
+}
+
+.barButtonMain__984b4.barButtonBase__5e4cf, .barButtonAlt_e800ef.barButtonBase__5e4cf {
+    color: #fce38f;
+}
+
+.numberBadge_c1210c.base_eaf673.eyebrow__74d9f.baseShapeRound__42b79 {
+    background: white !important;
+    color: red;
+}
+
+.content__7191e {
+    color: white !important;
+}
