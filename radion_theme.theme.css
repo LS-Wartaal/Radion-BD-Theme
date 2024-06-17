@@ -1,7 +1,7 @@
 /**
  * @name Radion Theme BD
  * @description Radion's (C) official Better Discord theme. For the Radion member community. For theme suggestions, head to the server; https://discord.com/invite/87BC7wApsZ
- * @version 1.3.2
+ * @version 1.3.3
  * @author LS_Wartaal
  */
 
@@ -166,12 +166,12 @@
 }
 
 .numberBadge_c1210c.base_eaf673.eyebrow__74d9f.baseShapeRound__42b79 {
-    background: black !important;
-    color: red;
+    background: #fce38f !important;
+    color: #3f3820;
 }
 
 .content__7191e {
-    color: white;
+    color: white !important;
 }
 
 .wrapper__216eb.guilds__2b93a {
