@@ -1,7 +1,7 @@
 /**
  * @name Radion Theme BD
  * @description Radion's (C) official Better Discord theme. (Based on Radion color schemes)
- * @version 1.3.5
+ * @version 1.3.6
  * @author LS_Wartaal
  * @invite 87BC7wApsZ
  * @website https://drive.google.com/file/d/1GZJEijiq4_iTtm1HqkEJ6q_heHYykw22/view?usp=sharing
@@ -47,16 +47,40 @@
     --scrollbar-auto-thumb: #fce38f;
     --scrollbar-auto-track: #4d4a34;
     --new-messages-bar: black;
-    --discord-icon: none;
-    --home-icon: block;
-    --home-icon-url: url(https://i.imgur.com/xTDQb1J.png)
 }
 
+
+
+/* Message input container */
 .scrollableContainer_d0696b.themedBackground_d0696b {
     background-color: #000000;
     color: white; 
 }
 
+.placeholder_a552a6.slateTextArea_e52116.fontSize16Padding_d0696b {
+    color: #fce38f;
+}
+
+.buttonsInner_d5deea.wrapper_ef319f {
+    background-color: #4d4a34;
+}
+/* Code Block ("part of") */
+.syntaxBefore_cdb578.before_inlineCode_cdb578 {
+    background-color: rgb(117, 95, 34);
+}
+
+.inlineCode_cdb578 {
+    background-color: rgb(117, 95, 34);
+    color: #fce38f;
+}
+
+.syntaxAfter_cdb578.after_inlineCode_cdb578 {
+    background-color: rgb(117, 95, 34);
+}
+
+
+
+/* Thread items */
 .icon_e44302 {
     color: #fce38f;
 }
@@ -73,17 +97,14 @@
     background: #3f3820;
 }
 
-.placeholder_a552a6.slateTextArea_e52116.fontSize16Padding_d0696b {
-    color: #fce38f;
-}
-
-.buttonsInner_d5deea.wrapper_ef319f {
-    background-color: #4d4a34;
-}
-
 .container_a6d69a {
     background-color: rgb(56, 50, 32);
 }
+
+.submitButton_c1668f.button_dd4f85.lookFilled_dd4f85.colorBrand_dd4f85.sizeSmall_dd4f85.grow_dd4f85 {
+    background-color: black;
+}
+
 
 
 /* Window related items */
@@ -104,19 +125,9 @@
     background-color: #241F0F;
 }
 
-/* Icon related items */
-.wrapper__8436d path {
-    display: none;
-}
-    
-.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15, .wrapper__8436d .childWrapper_a6ce15 {
-    background: url('https://cdn.discordapp.com/attachments/1137807597546786968/1242546133176287252/Radion_ROUND.png?ex=666ddec3&is=666c8d43&hm=dc5b297da83c1a7589b5d75c6fbe0c126db243475ca4ccfb2c772f00189058b8&') center/cover no-repeat;
-    background-size: 80%;
-    min-width: 60px;
-    min-height: 60px;
-}
 
 
+/* UNKNOWN */
 .message-accessories-1251215261533474950 {
     background-color: black;
 }
@@ -125,69 +136,8 @@
     background-color: black;
 }
 
-.submitButton_c1668f.button_dd4f85.lookFilled_dd4f85.colorBrand_dd4f85.sizeSmall_dd4f85.grow_dd4f85 {
-    background-color: black;
-}
-
 .expandedFolderBackground_bc7085 {
     background-color: rgb(63, 63, 63);
-}
-
-.wrapper__8436d:hover .childWrapper_f90abb, .childWrapper_f90abb {background-color: black;}
-#app-mount .tutorialContainer_f9623d .childWrapper_f90abb {
-    background-image: url('https://i.imgur.com/f8CtqhN_d.webp?maxwidth=760&fidelity=grand');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.childWrapper_f90abb svg {display: none;}
-
-.message_d5deea.cozyMessage_d5deea.mentioned_d5deea.wrapper_ec86aa.cozy_ec86aa.zalgo_ec86aa {
-    background: black !important;
-}
-
-.message_d5deea.cozyMessage_d5deea.mentioned_d5deea.wrapper_ec86aa.cozy_ec86aa.zalgo_ec86aa:before {
-    background: red !important;
-}
-
-
-.divider_d5deea.hasContent_d5deea {
-    border-width: 4px;
-    border-color: black;
-}
-
-.repliedMessage_ec86aa:before {
-    border-color: #fce38f;
-}
-
-.content_fc5f50 {
-    background: black;
-    color: #fce38f; 
-}
-
-.syntaxBefore_cdb578.before_inlineCode_cdb578 {
-    background-color: rgb(117, 95, 34);
-}
-
-.inlineCode_cdb578 {
-    background-color: rgb(117, 95, 34);
-    color: #fce38f;
-}
-
-.syntaxAfter_cdb578.after_inlineCode_cdb578 {
-    background-color: rgb(117, 95, 34);
-}
-
-.messagesPopout_ac90a2.thin_c49869.scrollerBase_c49869 {
-    background-color: black;
-}
-
-.messageGroupCozy_ac90a2.wrapper_ec86aa.cozy_ec86aa.zalgo_ec86aa {
-    background-color: #4d4a34;
-}
-
-.header_ac90a2 {
-    background-color: black;
 }
 
 .theme-dark.container_e44302.themed_e44302 {
@@ -219,10 +169,69 @@
     color: white !important;
 }
 
+
+
+/* Icon related items */
+.wrapper__8436d:hover .childWrapper_f90abb, .childWrapper_f90abb {background-color: black;}
+#app-mount .tutorialContainer_f9623d .childWrapper_f90abb {
+    background-image: url('https://i.imgur.com/f8CtqhN_d.webp?maxwidth=760&fidelity=grand');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.childWrapper_f90abb svg {display: none;}
+
+
+
+/* Response/ping message */
+.message_d5deea.cozyMessage_d5deea.mentioned_d5deea.wrapper_ec86aa.cozy_ec86aa.zalgo_ec86aa {
+    background: black !important;
+}
+
+.message_d5deea.cozyMessage_d5deea.mentioned_d5deea.wrapper_ec86aa.cozy_ec86aa.zalgo_ec86aa:before {
+    background: red !important;
+}
+
+.repliedMessage_ec86aa:before {
+    border-color: #fce38f;
+}
+
+
+
+/* New Date devider */
+.divider_d5deea.hasContent_d5deea {
+    border-width: 4px;
+    border-color: black;
+}
+
+.content_fc5f50 {
+    background: black;
+    color: #fce38f; 
+}
+
+
+
+/* "Pinned Messages" */
+.messagesPopout_ac90a2.thin_c49869.scrollerBase_c49869 {
+    background-color: black;
+}
+
+.messageGroupCozy_ac90a2.wrapper_ec86aa.cozy_ec86aa.zalgo_ec86aa {
+    background-color: #4d4a34;
+}
+
+.header_ac90a2 {
+    background-color: black;
+}
+
+
+
+/* General styling */
 .wrapper_fea3ef.guilds_a4d4d9 {
     background: #241F0F;
 }
 
+/* Edited message */
 .edited_ec86aa {
     color: red !important;
 }
